@@ -26,3 +26,12 @@ resource "aws_instance" "main" {
     Environment = var.environment
   }
 }
+resource "aws_instance" "imported" {
+  ami           = "ami-0953476d60561c955"
+  instance_type = "t2.micro"
+
+  tags = {
+    Name        = "imported-instance"
+    Environment = "imported"
+  }
+}

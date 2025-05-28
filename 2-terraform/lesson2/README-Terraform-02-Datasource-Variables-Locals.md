@@ -286,10 +286,10 @@ terraform plan
 
 - Değişken değeri Terraform cli komutuna `-var` veya `-var-file` komutu eklenerek verilebilir. Bu şekilde değişken değeri tanımlanırsa daha önce tanımlanmış olan `default` değeri, `Environment variables` ile girilen değeri, `terraform.tfvars` içeriğini ve `*.auto.tfvars` içeriğini ezer.
 
--Aynı terraform cli komutu içinde `-var` ve `-var-file` birlikte kullanılırsa önceki yazılanı sonraki ezer. aşağıdaki örnekte `-var-file` ile girilen dosyadaki değerler `-var` ile girilen değeri ezer.
+-Aynı terraform cli komutu içinde `-var` ve `-var-file` birlikte kullanılırsa sonraki yazılan öncekini ezer. aşağıdaki örnekte `-var-file` ile girilen dosyadaki değerler `-var` ile girilen değeri ezer.
 
 ```bash
-terraform plan -var="ec2_name=my-EC2-instance-VAR" -var-file="test.tfvars"
+terraform plan  -var-file="test.tfvars" -var="ec2_name=my-EC2-instance-VAR"
 ```
 
 - Terraform loads variables in the following order:

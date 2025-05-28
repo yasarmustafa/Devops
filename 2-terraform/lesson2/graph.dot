@@ -1,0 +1,7 @@
+digraph G {
+  rankdir = "RL";
+  node [shape = rect, fontname = "sans-serif"];
+  "data.aws_ami.latest_ubuntu" [label="data.aws_ami.latest_ubuntu"];
+  "aws_instance.main" [label="aws_instance.main"];
+  "aws_instance.main" -> "data.aws_ami.latest_ubuntu";
+}

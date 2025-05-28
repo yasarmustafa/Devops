@@ -3,7 +3,7 @@ variable "ec2_name" {
 }
 
 variable "ec2_type" {
-  default = "t3.medium"
+  default = "t2.medium"
 }
 
 variable "environment" {
