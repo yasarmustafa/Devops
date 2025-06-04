@@ -1,2 +1,6 @@
 .terraform/
 *.pem
+*.key
+.env
+secrets/
+id_rsa
