@@ -1,0 +1,10 @@
+key-pem dosyanızı da bu klasör içine kopyalayın.
+bu ayarlar eu-west-1 (irlanda) regionına göre yapılmıştır. region değiştirmek istiyorsanız, myvars.auto.tfvars dosyasında da region veami-id'leri değiştirmeniz gerekmektedir. onun haricinde key-pem adını değiştirmek yeterli olacaktır.
+
+
+> myvars.auto.tfvars dosyasında aşağıdaki satırları kontrol edin.
+---------------
+3 - key_name 
+7 - region
+8 - amznlnx
+9 - ubuntu

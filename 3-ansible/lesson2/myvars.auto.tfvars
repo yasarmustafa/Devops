@@ -1,0 +1,9 @@
+//aws_access_key = ""
+//aws_secret_key = ""
+mykey = "mustafayasar" # Replace with your key name
+tags = ["control_node", "node_1", "node_2", "node_3"]
+instancetype = "t2.micro"
+num = 4
+region = "us-east-1" # Replace with your region, or you can use this configuration.
+amznlnx = "ami-02457590d33d576c3" # Amazon Linux 2023 AMI, Ensure the AMI IDs are valid for the specified region.
+ubuntu = "ami-0f9de6e2d2f067fca" # Ubuntu 24.04 AMI, Ensure the AMI IDs are valid for the specified region.
