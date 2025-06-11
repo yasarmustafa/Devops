@@ -1,0 +1,7 @@
+> main.tf
+22 - username
+92 ve 101 - key-pem-path
+
+> myvars.auto.tfvars
+3 - mykey 
+8 - region
