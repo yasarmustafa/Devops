@@ -1,0 +1,10 @@
+//aws_access_key = ""
+//aws_secret_key = ""
+myami = ["ami-09e6f87a47903347c", "ami-03a13a09a711d3871", "ami-020cba7c55df1f615"] # [amazonlinux23, redhat-enterprise-linux10, ubuntu24.04]; farklı regionda iseniz ami'leri değiştirin
+mykey = "mustafayasar" # kendi key pair'inizi kullanın
+tags = ["control_node", "web_server_1", "web_server_2"]
+worker-node-type = "t2.micro"
+control-node-type = "t2.micro"
+num = 3
+region = "us-east-1" 
+mysecgr = "ansible-session5-sec-gr"
