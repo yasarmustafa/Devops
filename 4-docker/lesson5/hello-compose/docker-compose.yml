@@ -1,0 +1,5 @@
+echo 'version: "3.8"
+services:
+  hello:
+    image: alpine
+    command: ["echo", "Merhaba Docker Compose!"]' > docker-compose.yml
